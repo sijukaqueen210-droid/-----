@@ -2,7 +2,8 @@ module.exports.config = {
   name: "bot",
   version: "1.0.0",
   hasPermission: 0,
-  credits: "𝐏𝐨𝐥𝐚𝐛𝐚𝐳 𝐍𝐚𝐭𝐚𝐬𝐚: "Random fun reply when someone says Bot",
+  credits: "𝐏𝐨𝐥𝐚𝐛𝐚𝐳 𝐍𝐚𝐭𝐚𝐬𝐚: "
+  Random fun reply when someone says Bot",
   commandCategory: "Fun",
   usages: "[Bot]",
   cooldowns: 2,
