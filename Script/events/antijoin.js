@@ -2,7 +2,7 @@ module.exports.config = {
  name: "antijoin",
  eventType: ["log:subscribe"],
  version: "1.0.0",
- credits: "𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸 𝗰𝗵𝗮𝘁 𝗯𝗼𝘁",
+ credits: "𝐍𝐚𝐭𝐚𝐬𝐚 𝐜𝐡𝐚𝐭 𝐛𝐨𝐭",
  description: "Welcome new members to the group"
 };
 
