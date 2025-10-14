@@ -44,10 +44,10 @@ module.exports.languages = {
 // এখানে আপনার ফোটো Imgur লিংক করে বসাবেন✅
 
 const helpImages = [
-    "https://ibb.co/FLYJ9prC",
-    "https://ibb.co/BKZ2yHmS",
-    "https://ibb.co/C5Z9LctX",
-    "https://ibb.co/1fpgyW71"
+    "https://i.imgur.com/ww93vZI.jpeg",
+    "https://i.imgur.com/WiWpUDZ.jpeg",
+    "https://i.imgur.com/qntiQgF.jpeg",
+    "https://i.imgur.com/pHadUrZ.jpeg"
 ];
 
 function downloadImages(callback) {
