@@ -2,7 +2,7 @@ module.exports.config = {
  name: "bday",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "ULLASH and SAHU ",
+ credits: "NATASA AND NILOY ",
  description: "See admin's birthday",
  usePrefix: false,
  commandCategory: "bday",
@@ -33,7 +33,7 @@ module.exports.run = async ({ api, event }) => {
  if (diffDays === 0) {
  const happyBirthdayMessage = 
 `╔═══ 🎉 𝐇𝐀𝐏𝐏𝐘 𝐁𝐈𝐑𝐓𝐇𝐃𝐀𝐘 🎉 ════╗
-║ 𝐎𝐔𝐑 𝐁𝐎𝐒𝐒 - 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔 💖 
+║ 𝐎𝐔𝐑 𝐁𝐎𝐒𝐒 - 𝙋𝙊𝙇𝘼𝘽𝘼𝙕 𝙉𝘼𝙏𝘼𝙎𝘼💖 
 ╟─────────────────
 ║ 🎂 Everyone Please Wish Him Today! 
 ║ 🥳 আজ আমাদের Boss এর জন্মদিন! 
@@ -41,14 +41,14 @@ module.exports.run = async ({ api, event }) => {
 ╟─────────────────
 ║ 📩 Connect With Him: 
 ║ ➤ 📘 Facebook : 
-║ www.facebook.com/61575698041722 
+║ www.facebook.com/ 61574714564736
 ║ ➤ 💬 Messenger : 
-║ m.me/61575698041722 
+║ m.me/ 61574714564736
 ║ ➤ 📱 WhatsApp : 
-║ https://wa.me/+8801882333052 
+║ https://wa.me/+9162957144** 
 ╟─────────────────
 ║ 🫶 উইশ করো, দোয়া করো?
-║ এবং ভালোবাসা জানাও প্রিয় বস সাহুকে! ❤️‍🩹 
+║ এবং ভালোবাসা জানাও প্রিয় বস নাতাসাকে! ❤️‍🩹 
 ╚═════════════════════════╝`;
  return api.sendMessage(happyBirthdayMessage, event.threadID, event.messageID);
  }
@@ -56,7 +56,7 @@ module.exports.run = async ({ api, event }) => {
  if (diffDays < 0) {
  const leakMessage =
 `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
+║ 🎂 Admin POLABAZ NATASA
 ║ এর জন্মদিন ফাঁস হয়ে গেছে ❤️‍🩹🤌
 ╚═══════════════════╝`;
  return api.sendMessage(leakMessage, event.threadID, event.messageID);
@@ -64,7 +64,7 @@ module.exports.run = async ({ api, event }) => {
 
  const countdownMessage = 
 `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
+║ 🎂 Admin POLABAZ NATASA
 ║ এর জন্মদিন ফাঁস হয়ে গেছে ❤️‍🩹🤌
 ║═══════════════════
 ║ 📅 Days : ${diffDays}
@@ -73,7 +73,7 @@ module.exports.run = async ({ api, event }) => {
 ║ ⏳ Seconds : ${diffSeconds}
 ╚════════════════════╝`;
 
- const url = `https://graph.facebook.com/61575698041722/picture?height=720&width=720`;
+ const url = `https://graph.facebook.com/61574714564736/picture?height=720&width=720`;
 
  try {
  const response = await axios({
