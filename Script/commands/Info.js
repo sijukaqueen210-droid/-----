@@ -65,10 +65,10 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
  😍─꯭─⃝‌‌𝐏𝐨𝐥𝐚𝐛𝐚𝐳 𝐍𝐚𝐭𝐚𝐬𝐚😘`;
 
  const imgLinks = [
- "https://ibb.co/FLYJ9prC",
- "https://ibb.co/BKZ2yHmS",
- "https://ibb.co/C5Z9LctX",
- "https://ibb.co/1fpgyW71"
+ "https://i.imgur.com/9m2oKhL.jpeg",
+ "https://i.imgur.com/pHadUrZ.jpeg",
+ "https://i.imgur.com/qntiQgF.jpeg",
+ "https://i.imgur.com/ww93vZI.jpeg"
  ];
 
  const imgLink = imgLinks[Math.floor(Math.random() * imgLinks.length)];
